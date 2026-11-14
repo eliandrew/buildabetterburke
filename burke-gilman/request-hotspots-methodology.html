@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How we counted trail requests — Build a Better Burke</title>
+  <meta name="description" content="Sources, coverage and limitations of the Burke-Gilman Find It, Fix It request hot spots.">
+  <link rel="stylesheet" href="../assets/site.css">
+  <style>
+    body{margin:0;background:#f6f5ef;color:#203c37;font:16px/1.75 system-ui,sans-serif}main{max-width:780px;margin:auto;padding:48px 24px 72px;overflow-wrap:anywhere}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.2;letter-spacing:-.6px}h1{font-size:clamp(32px,6vw,48px);margin:10px 0 20px}h2{font-size:27px;margin:38px 0 14px}p{margin:12px 0}a{color:inherit;text-underline-offset:3px}a:focus-visible{outline:3px solid #2b8e85;outline-offset:4px}.eyebrow{font-size:11px;letter-spacing:1.5px;color:#85614b}.lede{font-size:19px}.method-callout{background:#fffefa;border:1px solid #dedfd5;padding:20px 24px;border-radius:8px;margin:26px 0}.method-callout strong{color:#a34c2d}.source-list li{margin:10px 0}table{width:100%;border-collapse:collapse;background:#fffefa;font-size:14px}th,td{text-align:left;padding:10px 13px;border-bottom:1px solid #dedfd5}tbody th{font-weight:500}td:last-child,thead th:last-child{text-align:right}.small{font-size:13px;color:#64735f}.back{font-size:13px}.download-links{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:14px}@media(max-width:480px){main{padding:28px 18px 48px}.method-callout{padding:16px}.lede{font-size:17px}th,td{padding:9px;font-size:12px}}
+  </style>
+</head>
+<body>
+  <nav class="bbb-project-nav" aria-label="Site navigation"><a href="../index.html">Build a Better Burke</a><div class="bbb-project-nav-links"><a href="index.html">Trail map</a><a href="hotspots.html">Hot spots</a><a href="../fremont-connection/index.html">Fremont Connection</a><a href="../stone-way/index.html">Stone Way N</a></div></nav>
+  <main>
+    <a class="back" href="hotspots.html">← Back to request hot spots</a>
+    <p class="eyebrow">DATA NOTES · NOVEMBER 14, 2026 SNAPSHOT</p>
+    <h1>How we counted trail requests.</h1>
+    <p class="lede">The hot spots show where Seattle receives more service requests near the Burke-Gilman Trail. They help identify places to investigate, with the limits of the data in view.</p>
+    <div class="method-callout"><strong>5,875 public app requests</strong> fall within approximately 50 meters of the mapped trail during November 15, 2025–November 14, 2026. Including every intake channel raises that number to <strong>6,890</strong>.</div>
+
+    <h2>From a citywide file to a trail corridor</h2>
+    <p>We started with the supplied <em>Customer_Service_Requests_20261114.csv</em> export: 2,553,664 requests dated January 1, 2013 through November 14, 2026. Coordinates are compared with Seattle’s official Burke-Gilman mainline geometry. A request is included when its location is within approximately 50 meters of that centerline, then assigned once to the nearest trail area.</p>
+    <p>Across all dates and intake channels, 46,146 requests meet that distance rule. The source file has 78,160 requests without usable coordinates (3.06% of the citywide total); these cannot be placed on this map.</p>
+    <p>The default intake filter uses the exact source value “Find It Fix It Apps.” “All intake channels” also includes public web and phone reports, email, and staff intake. Seattle identifies “PremierOne CSR Mobile Apps” as a separate staff intake method.</p>
+
+    <h2>What the colors mean</h2>
+    <p>Each area is ranked by its number of matching requests divided by its mapped trail length in kilometers. For example, 839 app requests along approximately 2.07 km in the Fremont area equals 404.5 requests per kilometer. Every trail section within an area uses that area’s color.</p>
+    <p>This is a descriptive comparison of reporting volume, not a statistical test for clusters or a measure of danger. Longer time periods accumulate more reports. Categories, app adoption, and departmental recording practices have also changed over time, so all-year totals do not measure present conditions.</p>
+
+    <h2>Coverage follows the existing trail</h2>
+    <p>The geographic source contains about 22.37 km of existing Seattle mainline in two disconnected parts. The Ballard Missing Link gap is excluded; we do not draw an imaginary connecting line. Access spurs and the trail beyond Seattle’s northern limit are also excluded.</p>
+    <p>The eight area names follow this map’s approximate ownership-map groupings. They are orientation labels, not official neighborhood or parcel boundaries. Golden Gardens &amp; Ballard combines the western trail and the separate section 02 reach. Counts apply to whole areas, not individual ownership sections or maintenance agencies.</p>
+    <p class="small">Distances use a local approximation; mapped lengths come from the city’s projected centerline. Mapping and location accuracy do not support survey-level precision. See the geometry notes below for area boundaries and lengths.</p>
+
+    <h2>The buffer changes the result</h2>
+    <p>Nearby streets, parks, and properties are included. A reported location alone does not establish that the problem is on the trail. For the default period and public app channel, the totals are:</p>
+    <table><thead><tr><th scope="col">Distance from trail</th><th scope="col">Requests</th></tr></thead><tbody><tr><th scope="row">Within 25 m</th><td>3,259</td></tr><tr><th scope="row">Within 50 m · map default</th><td>5,875</td></tr><tr><th scope="row">Within 100 m</th><td>8,286</td></tr></tbody></table>
+    <p>These are cumulative distances, not separate bands. The narrower corridor is more selective, but may miss trail issues whose reported coordinates fall farther away.</p>
+
+    <h2>A request is not a confirmed condition</h2>
+    <ul>
+      <li>Several request IDs may refer to the same underlying problem, including requests copied between departments. Records marked as duplicates remain included as reports.</li>
+      <li>Status is the value in the export. “Closed” does not establish that a problem was fixed. The dataset does not include repair details, closure dates, report descriptions, or photographs.</li>
+      <li>Low counts can reflect underreporting or use of another system. Requests made directly to UW Facilities are not necessarily included in Seattle’s dataset.</li>
+      <li>The latest source day and 2026 totals may be incomplete. “Latest 12 months” means the 365 calendar days ending on the latest source date; this page is a static snapshot, not a live feed.</li>
+    </ul>
+
+    <h2>Sources and useful next steps</h2>
+    <ul class="source-list">
+      <li><a href="https://data.seattle.gov/City-Administration/Customer-Service-Requests/5ngg-rpne">Seattle Customer Service Requests dataset</a> — the citywide source and its metadata.</li>
+      <li><a href="https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/SDOT_Bike_Facilities/FeatureServer/1">SDOT Multi-use Trails (Seattle Only)</a> — official centerline used for the distance filter.</li>
+      <li><a href="https://www.seattle.gov/customer-service-bureau/find-it-fix-it-mobile-app">Find It, Fix It reporting information</a> — report a specific issue through the city’s service channels.</li>
+      <li><a href="https://www.seattle.gov/parks/parks/burke-gilman-trail">Seattle Parks trail information</a> and <a href="https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/ballard-multimodal-corridor/burke-gilman-trail-map">SDOT trail map</a> — official trail context.</li>
+      <li><a href="https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bgtmissinglink">Burke-Gilman Trail Missing Link</a> — project information for the gap excluded from this analysis.</li>
+      <li><a href="https://facilities.uw.edu/services/requests">UW Facilities service requests</a> — a separate route for campus facilities concerns.</li>
+    </ul>
+
+    <h2>Inspect the analysis</h2>
+    <p>Only area-level aggregates ship with the map. The large original CSV and individual request locations are not included in the site.</p>
+    <div class="download-links"><a href="data/request-hotspots.json" download>Download aggregate data (JSON)</a><a href="data/REQUEST_HOTSPOTS.md">Reproduction instructions</a><a href="data/TRAIL_GEOMETRY.md">Geometry source notes</a></div>
+    <p class="small">Prepared from the November 14, 2026 export. These notes describe that snapshot and must be updated when the source data is refreshed.</p>
+  </main>
+</body>
+</html>
