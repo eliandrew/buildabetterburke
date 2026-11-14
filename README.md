@@ -5,7 +5,7 @@ A small static site for exploring the Burke-Gilman Trail, the connections around
 - [Home](index.html): the project landing page, with sidebar navigation and map artwork.
 - [Burke-Gilman Trail](burke-gilman/index.html): 62 selectable ownership sections, source-map comparison, discussion prompts, and local notes/photos.
 - [Fremont Connection](fremont-connection/index.html): eight study sections around the Ship Canal Trail, Fremont Bridge, and Burke-Gilman Trail, including nearby places and discussion tabs.
-- [Stone Way N](stone-way/index.html): a completed-project case study, public project timeline, and five selectable intersection designs.
+- [Stone Way N](stone-way/index.html): a completed-project case study, advocacy and project timeline, original outreach documents, and five selectable intersection designs.
 
 Open index.html in a browser, or serve the repository directory with a static web server. No build, package installation, or backend is required. Relative links work from a local folder and when the site is hosted under a project path such as GitHub Pages.
 
@@ -17,4 +17,4 @@ Ownership is transcribed from the supplied parcel PDF. Section numbers and appro
 
 Stone Way N uses local copies of SDOT’s five design drawings. See [source notes](assets/stone-way/README.md) for provenance and the current editorial scope. The crossing explorer works with mouse and keyboard, preserves direct links to each intersection, and shows all five designs if JavaScript is disabled or the page is printed.
 
-The Stone Way draft currently includes the documented 2024 funding and October 21, 2026 construction milestones. Completion is based on the project organizer’s account; an exact completion date and the group’s name, dated advocacy steps, and supporting links still need to be supplied before its advocacy story is ready to publish. No specific advocacy actions or causal credit have been inferred from SDOT’s construction record.
+The Stone Way draft documents Ballard-Fremont Greenways’ advocacy from March 2023 through February 2024: construction-related access concerns, renewed outreach after the December 12 collision, SDOT’s January 26 response, and support from local businesses and schools. It includes the original March and December PDFs and the organizer-supplied correspondence, with business replies left individually unattributed. Later entries retain the documented levy funding and October 2026 construction update. Further advocacy milestones and the exact completion date/scope remain to be supplied; completion status follows the organizer’s account.

@@ -21,7 +21,19 @@ The page supports these facts:
 - Funding comes from the 2024 voter-approved Seattle Transportation Levy. This does not establish a project-specific funding commitment date.
 - As of the October 21, 2026 update, construction had recently started at all five sites, with asphalt filling of the pedestrian median islands still pending. October 21 is the update date, not a claimed construction start date.
 
-The organizer described the project as completed. That supplies the draft's completion status, but no exact completion date or updated city confirmation was provided. The dated advocacy history, group identity, supporting documents, and final completion scope remain outstanding. The public timeline contains no invented meetings, campaigns, petitions, statements, attendance, or credit for securing the project. Add those milestones to stone-way/index.html once supplied by the organizer.
+The organizer described the project as completed. That supplies the draft's completion status, but no exact completion date or updated city confirmation was provided. Advocacy after February 2024 and the final completion date/scope remain outstanding.
+
+## Advocacy sources, March 2023–February 2024
+
+| Local file | Original supplied document | Evidence used |
+| --- | --- | --- |
+| [stone-way-feedback-march-2023.pdf](stone-way-feedback-march-2023.pdf) | Stone Way Feedback.pdf | Dated March 2023 and written on behalf of Ballard-Fremont Greenways. Documents construction-related access problems around N 34th–N 36th and requests accessible sidewalks, better detours, a temporary signal at N 36th, signal timing changes at N 34th, and utility-pole relocation. |
+| [stone-way-36th-feedback-december-2023.pdf](stone-way-36th-feedback-december-2023.pdf) | Stone Way and 36th Feedback.pdf | Dated December 2023 and written on behalf of Ballard-Fremont Greenways. Records renewed outreach after a cyclist was hit by a vehicle on December 12, 2023, and requests a four-way stop and permanent crosswalk at Stone Way N and N 36th St. |
+
+Both PDFs are unmodified copies of the files supplied by the organizer. Their links load the documents on demand; the larger March document is about 17 MB.
+
+The organizer supplied the Ship Canal Water Quality Project context, SDOT's January 26 denial, and February 2024 business outreach history. January 26 is interpreted as 2024 from its position between the December 2023 outreach and February 2024 organizing. The response is reproduced verbatim and concerns a marked crosswalk alone on a multi-lane road and that year's signal-analysis priority list; it is not presented as a rejection of every possible safety treatment.
+
+The eight named supporters are Sea Wolf Bakers, Fremont Community School, Seattle Bouldering Project, Evergreen Garden School, Evolution Projects, Figurehead Brewing, Stone Way Cafe, and Brooks Running. They are listed as supporting the February outreach, not as unanimously endorsing every proposed treatment or the final project design. The three supplied replies are reproduced verbatim without assigning any reply to a particular business. One reply explicitly expresses weaker support for a four-way stop, which is retained in the story and quotation.
 
 The corridor illustration is a schematic of the five named intersections in north-to-south order. It is not a survey or geographic map.
-
