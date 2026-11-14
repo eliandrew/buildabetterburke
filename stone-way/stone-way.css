@@ -72,6 +72,10 @@
 .sw-source-link { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; line-height: 1.7; text-decoration: none; color: #67815e !important; }
 .sw-source-link:hover { text-decoration: underline; }
 .sw-source-link .bbb-icon { width: 12px; height: 12px; }
+.sw-timeline-document { margin: 22px 0 0; max-width: 430px; }
+.sw-timeline-document > a { display: block; border: 1px solid var(--bbb-line); border-radius: 5px; overflow: hidden; background: white; }
+.sw-timeline-document img { display: block; width: 100%; height: auto; }
+.sw-timeline-document figcaption { margin-top: 10px; font-size: 9px; line-height: 1.7; color: #829073; }
 .sw-timeline-complete::before { background: var(--bbb-green); border-color: var(--bbb-paper); box-shadow: 0 0 0 1px var(--bbb-green); }
 .sw-timeline-complete .sw-complete-word { color: #477457; }
 .sw-crossing-tabs { display: flex; gap: 8px; flex-wrap: wrap; padding-bottom: 24px; }
