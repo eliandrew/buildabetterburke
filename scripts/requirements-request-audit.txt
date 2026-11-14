@@ -1,0 +1,4 @@
+# Optional independent checker only; not needed by the builder or unit tests.
+numpy==2.5.4
+Shapely==2.2.0
+pyproj==3.8.0

@@ -4,14 +4,19 @@ A small static site for exploring the Burke-Gilman Trail, the connections around
 
 - [Home](index.html): the project landing page, with sidebar navigation and map artwork.
 - [Burke-Gilman Trail](burke-gilman/index.html): 62 selectable ownership sections, source-map comparison, discussion prompts, and suggested contacts.
+- [Request hot spots](burke-gilman/hotspots.html): a separate map of Find It, Fix It reporting activity across eight trail areas, with period, intake, and request-type filters.
 - [Fremont Connection](fremont-connection/index.html): eight study sections around the Ship Canal Trail, Fremont Bridge, and Burke-Gilman Trail, including nearby places and discussion tabs.
 - [Stone Way N](stone-way/index.html): a neighborhood project case study, advocacy and construction timeline, original outreach documents, and five selectable intersection designs. Work remains as of early November 2026.
 
 Open index.html in a browser, or serve the repository directory with a static web server. No build, package installation, or backend is required. Relative links work from a local folder and when the site is hosted under a project path such as GitHub Pages.
 
-Both map pages include navigation back home and to the other projects. Their source images and map data are embedded; the homepage shares assets from the assets directory. Its artwork comes from the existing Fremont map and retains the OpenStreetMap attribution.
+All map pages include navigation back home and to the other projects. Their source images and map data are embedded; the homepage shares assets from the assets directory. Its artwork comes from the existing Fremont map and retains the OpenStreetMap attribution.
 
 Ownership is transcribed from the supplied parcel PDF. Section numbers and approximate neighborhood labels are for navigation, not legal parcel boundaries. “Private Owner or Unknown” remains unresolved, and ownership does not establish maintenance responsibility. Discussion prompts are suggestions, not confirmed conditions or approved projects.
+
+The separate Burke-Gilman request hot spots page uses the November 14, 2026 Seattle Customer Service Requests export. It counts requests within approximately 50 meters of the official Seattle trail centerline, groups them into eight approximate map areas, and ranks areas by requests per mapped kilometer. Filters distinguish the public Find It, Fix It app from all intake channels and allow comparisons by request type and time period. Reports may concern nearby streets or properties, and multiple requests may describe one issue. Status counts describe the export snapshot; “Closed” does not establish that a repair happened. The Ballard Missing Link, access spurs, and trail beyond Seattle are excluded.
+
+Only anonymous aggregate counts ship with the site; the large source CSV remains outside the repository. See the [request methodology](burke-gilman/request-hotspots-methodology.html) for coverage, source links, and buffer sensitivity, and the [reproduction instructions](burke-gilman/data/REQUEST_HOTSPOTS.md) for commands to regenerate the data. The map and its aggregate data work from a local folder as well as a static server.
 
 Stone Way N opens with a project summary and a before-and-after photo comparison at N 36th St: March 2025 and October 17–18, 2026, labeled “After initial installation.” The photos show different viewpoints and preserve their full compositions, with links to the originals. Supporting details retain the five-intersection corridor schematic, and the crossing explorer uses local copies of SDOT’s five design drawings. See [source notes](assets/stone-way/README.md) for provenance and the current editorial scope. The crossing explorer works with mouse and keyboard, preserves direct links to each intersection, and shows all five designs if JavaScript is disabled or the page is printed.
 

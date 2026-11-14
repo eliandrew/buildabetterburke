@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ballard",
+    "name": "Golden Gardens & Ballard",
+    "boundaryDescription": "Includes the western trail from Golden Gardens to Ballard and the separate 1.26 km reach starting at 11th Avenue NW toward Fremont (ownership-map section 02). Both existing reaches contribute to this area's count; the Ballard Missing Link gap between them is excluded.",
+    "representativeSection": "section-01",
+    "pdfAnchor": [
+      152.93,
+      206.7175
+    ]
+  },
+  {
+    "id": "fremont",
+    "name": "Fremont & the canal",
+    "boundaryDescription": "The canal-side corridor around Fremont has several ownership changes, including very short sections between longer stretches.",
+    "representativeSection": "section-03",
+    "pdfAnchor": [
+      272.5933,
+      296.9665
+    ]
+  },
+  {
+    "id": "wallingford",
+    "name": "Wallingford & Northlake",
+    "boundaryDescription": "The mapped trail follows the north side of Lake Union toward the University District. Short ownership changes appear at the eastern end of this reach.",
+    "representativeSection": "section-15",
+    "pdfAnchor": [
+      313.2594,
+      288.8916
+    ]
+  },
+  {
+    "id": "uw",
+    "name": "University of Washington",
+    "boundaryDescription": "The trail crosses the University of Washington area. Purple university sections alternate with short blue SDOT sections on the source map.",
+    "representativeSection": "section-25",
+    "pdfAnchor": [
+      368.7462,
+      290.2108
+    ]
+  },
+  {
+    "id": "ravenna",
+    "name": "Ravenna & Bryant",
+    "boundaryDescription": "North and east of the university, the source shows Parks stretches separated by short SDOT sections.",
+    "representativeSection": "section-32",
+    "pdfAnchor": [
+      395.0863,
+      252.9515
+    ]
+  },
+  {
+    "id": "sand-point",
+    "name": "Sand Point corridor",
+    "boundaryDescription": "The mapped route turns toward the western shore of Lake Washington. Longer Parks stretches alternate with small SDOT sections.",
+    "representativeSection": "section-38",
+    "pdfAnchor": [
+      449.8373,
+      218.6384
+    ]
+  },
+  {
+    "id": "matthews",
+    "name": "Matthews Beach corridor",
+    "boundaryDescription": "The trail continues north along the Lake Washington corridor. Several small SDOT sections interrupt the Parks ownership shown in yellow.",
+    "representativeSection": "section-48",
+    "pdfAnchor": [
+      433.4304,
+      154.3442
+    ]
+  },
+  {
+    "id": "north",
+    "name": "North Seattle & map edge",
+    "boundaryDescription": "The final mapped reaches continue north toward the edge of the Seattle map. Ownership beyond the supplied map is not included.",
+    "representativeSection": "section-60",
+    "pdfAnchor": [
+      429.2575,
+      75.8801
+    ]
+  }
+]

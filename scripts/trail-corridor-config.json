@@ -1,0 +1,150 @@
+{
+  "source": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/SDOT_Bike_Facilities/FeatureServer/1",
+  "sourceItem": "https://www.arcgis.com/home/item.html?id=bf36bd11b499489d8cc1d491b72eb712",
+  "query": "ORD_STNAME_CONCAT = 'BURKE GILMAN TRL' AND CITYCODE = 1",
+  "georeference": {
+    "pdfToEPSG2926": [
+      [
+        114.11132556333335,
+        0.005446936319312375
+      ],
+      [
+        -0.006315379506947685,
+        -114.17455601239259
+      ],
+      [
+        1235588.546232001,
+        274010.589336809
+      ]
+    ],
+    "initialControls": [
+      [
+        [
+          161.1474,
+          168.0983
+        ],
+        [
+          1253917.7657288,
+          254869.834553033
+        ]
+      ],
+      [
+        [
+          173.4481,
+          232.1929
+        ],
+        [
+          1255353.99216227,
+          247502.815473482
+        ]
+      ],
+      [
+        [
+          418.028,
+          26.3115
+        ],
+        [
+          1283291.49433488,
+          271014.133641556
+        ]
+      ]
+    ],
+    "method": "Affine fit initialized from three matching trail endpoints, then least-squares iterative closest-point refinement against all PDF trail vertices. Used only to locate approximate area boundaries on the official centerline.",
+    "errorM": {
+      "median": 1.4303404747062227,
+      "p90": 3.6075121871713947,
+      "p95": 5.114554493985721,
+      "max": 12.36033487246997
+    }
+  },
+  "areaBoundaries": [
+    {
+      "startsAreaId": "fremont",
+      "pdfPoint": [
+        249.2025,
+        279.6165
+      ]
+    },
+    {
+      "startsAreaId": "wallingford",
+      "pdfPoint": [
+        296.3054,
+        300.9816
+      ]
+    },
+    {
+      "startsAreaId": "uw",
+      "pdfPoint": [
+        333.2109,
+        274.599
+      ]
+    },
+    {
+      "startsAreaId": "ravenna",
+      "pdfPoint": [
+        374.9723,
+        251.2916
+      ]
+    },
+    {
+      "startsAreaId": "sand-point",
+      "pdfPoint": [
+        413.982,
+        238.3431
+      ]
+    },
+    {
+      "startsAreaId": "matthews",
+      "pdfPoint": [
+        455.2578,
+        176.0285
+      ]
+    },
+    {
+      "startsAreaId": "north",
+      "pdfPoint": [
+        439.2332,
+        128.4428
+      ]
+    }
+  ],
+  "areas": [
+    {
+      "id": "ballard",
+      "name": "Golden Gardens & Ballard"
+    },
+    {
+      "id": "fremont",
+      "name": "Fremont & the canal"
+    },
+    {
+      "id": "wallingford",
+      "name": "Wallingford & Northlake"
+    },
+    {
+      "id": "uw",
+      "name": "University of Washington"
+    },
+    {
+      "id": "ravenna",
+      "name": "Ravenna & Bryant"
+    },
+    {
+      "id": "sand-point",
+      "name": "Sand Point corridor"
+    },
+    {
+      "id": "matthews",
+      "name": "Matthews Beach corridor"
+    },
+    {
+      "id": "north",
+      "name": "North Seattle & map edge"
+    }
+  ],
+  "startNodes": {
+    "west": 5022,
+    "east": 7641
+  },
+  "expectedSourceFeatures": 64
+}
